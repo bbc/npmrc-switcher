@@ -26,5 +26,6 @@
   "preferGlobal": "true",
   "dependencies": {
     "findup-sync": "~0.1.2"
-  }
+  },
+  "bin": { "npmrc-switcher": "lib/npmrc-switcher.js" }
 }
