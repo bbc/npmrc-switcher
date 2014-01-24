@@ -15,5 +15,13 @@
   ],
   "author": "BBC News",
   "license": "Apache-2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BBC-News/npmrc-switcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BBC-News/npmrc-switcher/issues"
+  },
+  "homepage": "https://github.com/BBC-News/npmrc-switcher",
   "preferGlobal": "true"
 }
