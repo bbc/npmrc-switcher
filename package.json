@@ -4,7 +4,7 @@
   "description": "Checks to see if a .npmrc exists in the directory and switches the user's npmrc to it if it does. If none is found, checks the next higher directory until it either finds an .npmrc file or hits the root folder",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "echo 'Error: no test specified' && exit 1"
   },
   "keywords": [
     "npmrc"
