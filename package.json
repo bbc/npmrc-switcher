@@ -10,7 +10,8 @@
     "node": ">=0.10"
   },
   "keywords": [
-    "npmrc"
+    "npmrc",
+    "cli"
   ],
   "author": "BBC News",
   "license": "Apache-2",
