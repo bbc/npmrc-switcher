@@ -3,14 +3,14 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
-        pkg         : grunt.file.readJSON('package.json'),
-        jshint      : {
+        pkg      : grunt.file.readJSON('package.json'),
+        jshint   : {
             all     : [ '**/*.js', '!node_modules/**/*'],
             options : {
                 jshintrc : '.jshintrc'
             }
         },
-        jscs        : {
+        jscs     : {
             main    : [ '**/*.js', '!node_modules/**/*'],
             options : {
                 config : '.jscs.json',
