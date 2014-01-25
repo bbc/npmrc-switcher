@@ -1,0 +1,51 @@
+{
+    "requireCurlyBraces": ["else", "for", "while", "do", "try", "catch"],
+
+    "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+
+    "requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
+
+    "disallowSpacesInFunctionExpression": { "beforeOpeningRoundBrace": true },
+
+    "disallowMultipleVarDecl": true,
+
+    "requireSpacesInsideObjectBrackets": "allButNested",
+
+    "disallowQuotedKeysInObjects": "allButReserved",
+
+    "requireAlignedObjectValues": "all",
+
+    "disallowLeftStickedOperators": ["?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+
+    "requireRightStickedOperators": ["!"],
+
+    "disallowRightStickedOperators": ["?", "+", "/", "*", ":", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+
+    "requireLeftStickedOperators": [","],
+
+    "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
+
+    "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+
+    "requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!=="],
+
+    "requireSpaceAfterBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!=="],
+
+    "disallowMultipleLineBreaks": true,
+
+    "validateLineBreaks": "LF",
+
+    "disallowKeywordsOnNewLine": ["else"],
+
+    "requireLineFeedAtFileEnd": true,
+
+    "safeContextKeyword": "self",
+
+    "validateJSDoc": {
+        "checkParamNames": false,
+        "checkRedundantParams": false,
+        "requireParamTypes": false
+    },
+
+    "excludeFiles": ["node_modules/**"]
+}

@@ -27,5 +27,14 @@
   "dependencies": {
     "findup-sync": "~0.1.2"
   },
-  "bin": { "npmrc-switcher": "lib/npmrc-switcher.js" }
+  "bin": {
+    "npmrc-switcher": "lib/npmrc-switcher.js"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "jscs": "~1.2.4",
+    "grunt-jscs-checker": "~0.3.2",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-jshint": "~0.8.0"
+  }
 }
