@@ -4,7 +4,7 @@ npmrc-switcher
 Application to consolidate the team-wide use of Switchable .npmrc files
 
 
-##How to us
+##How to use
 ```
 git clone git@github.com:BBC-News/npmrc-switcher.git
 cd npmrc-switcher
