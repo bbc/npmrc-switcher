@@ -47,7 +47,9 @@ If you have the autoswitcher enabled you will need to remove that line from your
 
 ## Credits
 
-* [Integralist](https://github.com/integralist) for reviewing the code.
+* [JakeChampion](https://github.com/jakechampion)
+* [Integralist](https://github.com/integralist)
+
 * [chruby](https://github.com/postmodern/chruby) for the idea behind this project.
 
 [bash]: http://www.gnu.org/software/bash/
