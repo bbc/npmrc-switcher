@@ -1,3 +1,4 @@
+![](https://david-dm.org/bbc-news/npmrc-switcher.png)
 # npmrc-switcher
 
 Changes the current `.npmrc` file in use.
