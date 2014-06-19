@@ -1,6 +1,6 @@
 {
   "name": "npmrc-switcher",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Checks to see if a .npmrc exists in the directory and switches the user's npmrc to it if it does. If none is found, checks the next higher directory until it either finds an .npmrc file or hits the root folder",
   "main": "index.js",
   "scripts": {
@@ -25,16 +25,16 @@
   "homepage": "https://github.com/BBC-News/npmrc-switcher",
   "preferGlobal": "true",
   "dependencies": {
-    "findup-sync": "~0.1.2"
+    "findup-sync": "0.1.x"
   },
   "bin": {
     "npmrc-switcher": "lib/npmrc-switcher.js"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "jscs": "~1.2.4",
-    "grunt-jscs-checker": "~0.3.2",
-    "grunt-contrib-nodeunit": "~0.2.2",
-    "grunt-contrib-jshint": "~0.8.0"
+    "grunt": "0.4.x",
+    "jscs": "1.5.x",
+    "grunt-jscs-checker": "0.5.x",
+    "grunt-contrib-nodeunit": "0.4.x",
+    "grunt-contrib-jshint": "0.10.x"
   }
 }
