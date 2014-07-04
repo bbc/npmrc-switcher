@@ -45,6 +45,13 @@ npm uninstall npmrc-switcher
 
 If you have the autoswitcher enabled you will need to remove that line from your [bash] or [zsh] profile.
 
+## Git Hooks
+
+We use [Git Hooks](http://git-scm.com/book/en/Customizing-Git-Git-Hooks) in this project to allow each contributor to run the exact same procedures before committing code.
+
+To install the Git Hooks used, just open your terminal, locate the folder of the project and run
+`cp git-hooks/pre-commit .git/hooks`
+
 
 ## Credits
 
