@@ -31,7 +31,7 @@
     "npmrc-switcher": "lib/npmrc-switcher.js"
   },
   "devDependencies": {
-    "grunt": "0.4.x",
+    "grunt": "1.0.3",
     "jscs": "1.5.x",
     "grunt-jscs-checker": "0.5.x",
     "grunt-contrib-nodeunit": "0.4.x",
