@@ -4,7 +4,9 @@
   "description": "Checks to see if a .npmrc exists in the directory and switches the user's npmrc to it if it does. If none is found, checks the next higher directory until it either finds an .npmrc file or hits the root folder",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Error: no test specified' && exit 1"
+    "test": "echo 'Error: no test specified' && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.10"
@@ -25,16 +27,18 @@
   "homepage": "https://github.com/BBC-News/npmrc-switcher",
   "preferGlobal": "true",
   "dependencies": {
-    "findup-sync": "0.1.x"
+    "findup-sync": "0.1.x",
+    "snyk": "^1.104.2"
   },
   "bin": {
     "npmrc-switcher": "lib/npmrc-switcher.js"
   },
   "devDependencies": {
-    "grunt": "0.4.x",
-    "jscs": "1.5.x",
+    "grunt": "1.0.0",
+    "jscs": "2.5.0",
     "grunt-jscs-checker": "0.5.x",
-    "grunt-contrib-nodeunit": "0.4.x",
-    "grunt-contrib-jshint": "0.10.x"
-  }
+    "grunt-contrib-nodeunit": "2.0.0",
+    "grunt-contrib-jshint": "0.11.1"
+  },
+  "snyk": true
 }
